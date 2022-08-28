@@ -11,7 +11,7 @@ Console.Clear();
 Console.Write("Введите пятизначное число: ");
 string Number = Console.ReadLine();
 
-void Palindrom (string Number)
+void CheckPalindrom (string Number)
 {
     if (Number[0] == Number[4] || Number[2] == Number[3])   
     {
@@ -22,4 +22,4 @@ void Palindrom (string Number)
         Console.WriteLine("Число является палиндромом -> НЕТ");
     }
 }
-Palindrom(Number);
+CheckPalindrom(Number);
